@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.todolist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.todolist h2{
+    font-size: 45px;
+    color: #444;
+}
+.todolist h2 span{
+    color: orange;
+}
+.todolist .box-form{
+    margin-top: 30px;
+}
+.todolist .form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.todolist .form input{
+    width: 400px;
+    height: 30px;
+    margin-top: 5px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid #444;
+    padding-left: 5px;
+    color: #444;
+}
+.todolist .form input:focus{
+    outline: none;
+    border: none;
+    border: 1px solid orange;
+    color: orange;
+}
+.todolist input{
+    width: 400px;
+    height: 30px;
+    margin-top: 20px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+
+table{
+    margin-top: 30px;
+    height: auto;
+    width: 100%;
+}
+table tr{
+    display: flex;
+    justify-content: space-around;
+}
+table tbody{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+table tbody th{
+    margin-top: 20px;
+    color: #444;
+    border-bottom: 1px solid #444;
+    width: 100%;
+}
